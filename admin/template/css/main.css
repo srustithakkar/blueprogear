@@ -1,0 +1,520 @@
+body {
+  background-color:#e6ecf4;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  color: #fff;
+}
+
+p { margin: 0px; padding: 0px; }
+a { text-decoration: none; color: #fff; }
+@font-face {
+        font-family: "Roboto";
+        src: url('../fonts/367126465-Roboto-Light.eot');
+        src: url('../fonts/367126465-Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/367126465-Roboto-Light.svg#Roboto') format('svg'),
+        url('../fonts/367126465-Roboto-Light.woff') format('woff'),
+        url('../fonts/367126465-Roboto-Light.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: "Roboto Condensed";
+        src: url('../fonts/202301026-RobotoCondensed-Light.eot');
+        src: url('../fonts/202301026-RobotoCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/202301026-RobotoCondensed-Light.svg#Roboto Condensed') format('svg'),
+        url('../fonts/202301026-RobotoCondensed-Light.woff') format('woff'),
+        url('../fonts/202301026-RobotoCondensed-Light.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+    
+#login_min { /*background-image: url("../images/bg.png");*/ width: 100%; display:inline-table; height: 100vh; }
+.lgn_contnt {
+	background: #000000;
+	width: 360px;
+	min-height: 310px;
+	margin: 110px auto 20px;
+	max-width: 100%;
+	border-radius: 5px;
+	padding-bottom: 13px;
+	border: 1px solid #8a8a8a;
+}
+.login_logo {
+    border-bottom: 1px solid #747474;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    width: 330px;
+    margin-bottom: 17px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #fff;
+    padding: 7px 0 10px;
+}
+.lgn_control {
+    background-color: #bebebe;
+    background-image: none;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset;
+    color: #171717;
+    padding:0px;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    max-width: 100%;
+    outline: medium none;
+    padding: 0 0 0 32px;
+    width: 100%;
+}
+.lgn_contnt label {
+    display: block;
+    margin: 18px auto 6px;
+    width: 90%;
+   }
+.curv label {
+	margin: 0 auto;
+	cursor: pointer;
+}
+.lgn_bottom {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    width: 330px;
+    color: #a8a8a8;
+}
+.profile_img {
+  background: none repeat scroll 0 0 #000;
+  border: 1px solid #8a8a8a;
+  border-radius: 50%;
+  height: 104px;
+  margin: 0 auto;
+  text-align: center;
+  width: 104px;
+  overflow: hidden;  
+}
+.profile_img img {  
+    margin-top: 24px; 
+}
+.registration .profile_img {
+	background: url("../images/ad-pt.png") #000;
+}
+.registration .profile_img img { 
+    margin-top: 0;
+}
+.curv {
+  background-image: url("../images/curv.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 109px;
+  margin: -53px auto 0;
+  width: 114px;
+}
+
+.us_icon {
+    background-image: url("../images/user_icon.png");
+    background-position: 4% center;
+    background-repeat: no-repeat;
+}
+.pass_icon {
+    background-image: url("../images/pass_icon.png");
+    background-position: 4% center;
+    background-repeat: no-repeat;
+}
+.mail_icon {
+    background-image: url("../images/mail_icon.png");
+    background-position: 3% center;
+    background-repeat: no-repeat;
+}
+.ck_control {
+    color: #bcc0c3;
+    float: left;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-bottom: 17px;
+    margin-top: 3px;
+    width: 100%; 
+}
+#login_min .last_checked input[type="checkbox"] {
+	margin-right: -18px;
+}
+.registration .ck_control label {
+    float: left;
+    margin: 0px;
+    
+}
+.registration .ck_control .last_checked {
+	margin:7px 2.1% 0 24.1%;
+}
+.ck_control .lgn_control { 
+	width: auto; float: left; height: auto;
+}
+.login_logo img {max-width: 80%;} 
+
+span.control_btn {
+	display: block;
+    float: none;
+    margin: 0 auto;
+    width: 90%;
+}
+
+input[type="submit"],
+input[type="button"] {
+  border: 0 none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 18px;
+  height: 36px;
+  outline: 0 none;
+  padding: 0;
+  width: 100%;
+}
+input.login_btn,
+input.signup_btn,
+input.send_email,
+a.login_back {
+	color: #000;
+	border-radius: 20px;
+	font-size: 14px;
+	height: 32px;
+	font-weight: bold;
+}
+a.login_back {
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+a.login_back:hover {
+	color: #000000!important;
+}	
+input.login_btn,
+a.login_back {
+	background-image: url("../images/login_btn.png");
+	border: 3px solid #10a5cc;
+	
+}
+input.signup_btn {
+	 background-image: url("../images/signup_btn.png");
+	 border: 3px solid #f3ce2e;
+}
+input.send_email {
+	 background-image: url("../images/sendmail_btn.png");
+	 border: 3px solid #a8c451;
+}
+.forgot {
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+/*.for_pass {
+    cursor: pointer;
+    display: block;
+    float: none;
+    font-size: 14px;
+    margin: -63px 0 0 0;
+    position: absolute;
+    right: 22px;
+    text-align: right;
+    top: 0px;
+    width: 150px;
+}*/
+.po-relative {
+  float: right;
+  position: relative;
+  width: 167px;
+}
+.rembr-check {
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-left: 19px;
+    margin-top: 9px; 
+    text-align: right;
+    width: auto;
+}
+.rembr-check label.css-label { 
+		text-align: left;
+    	width: auto;
+}
+
+.for_pass {
+  cursor: pointer;
+  display: block;
+  float: none;
+  font-size: 14px;
+  left: 3px;
+  position: absolute;
+  text-align: right;
+  top: -76px;
+  width: 136px;
+}
+
+.bt_line {
+ border-bottom:1px solid #747474;
+  cursor: pointer;
+  float: left;
+  font-size: 14px;
+  margin-bottom: 11px;
+  padding-bottom: 9px;
+  text-align: right;
+  width: 100%;
+}
+.dt_acc {
+	
+}
+.headerbg { background: #222d3a; width: 100%; float: left;}
+.headerbg .img {
+    background-image: url("../images/logo.png");
+    background-size: 100% 100%;
+    float: left;
+    height: 72px;
+    margin: 1% 2%;
+    width: 122px;
+}
+.search_top { float: right; margin: 30px 5.5% 0 0%;}
+.search_top input {
+	background: #2d3d4f;
+	border: 1px solid #172331;
+	height: 41px;
+	width: 194px;
+	color: #fff;
+	font-size: 18px;
+}
+.forgot_slide {
+    border-bottom: 1px solid #747474;
+    float: left;
+    margin-bottom: 12px;
+    padding-bottom: 22px;
+    display: none;
+}
+.slide_down {
+	display: block;
+}
+.forgot_slide p {
+  font-size: 14px;
+  margin: 0 auto 22px;
+  text-align: center;
+  width: 90%;
+}
+.forgot_slide label {
+	margin-bottom: 13px;
+}
+.black_overlay{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 730px;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:0.66;
+	filter: alpha(opacity=80);
+}
+
+.white_content {
+	display: none;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	width: 50%;
+	height: 80%;
+	padding: 5px 10px;
+	border: 3px solid #222d3a;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
+	border-radius: 5px;
+}
+.popu_close {
+	float: right;
+    text-align: right;
+    width: 100%;
+}
+.profile_bg { 
+	background: #cfd9e6;
+	color: #222d3a;
+	font-size: 16px;
+}
+.pro_head {
+	background: #b3c7de;
+	height: 50px;
+	clear: both;
+}
+.pro_control {
+	background: #f5f9fe; 
+	border-bottom: 1px solid #fff;
+	float: left;
+	width: 100%;
+}
+.pro_input { 
+    background: none repeat scroll 0 0 #dbe5f1;
+    border: 1px solid #dbe5f1;
+    border-radius: 2px;
+    padding: 5px 10px;
+    width: 265px;
+ 
+}
+.pro_head,
+.pro_control label {
+}
+.pro_control p,
+.pro_head p  { 
+    display: inline-block;
+    padding-left: 18%;
+    padding-right: 5%;
+    width: 50%;
+}
+ 
+.pro_control label{
+	padding-bottom: 9px;
+	padding-top: 9px;
+	float: left;
+	width:100%;
+}
+.pro_head label {
+	padding-top: 12px;
+	float: left;
+	color: #fff;
+	font-weight: bold;
+	width: 100%;
+}
+.pro_control.checked label {
+	width: auto;
+	float: none;
+	line-height: 34px;
+	padding-top:0px;
+	 margin-left: -94px !important;
+    margin-right: 9px;
+    padding-left: 43px !important;
+    padding-bottom: 0px;
+}
+.checked { padding-top: 8px; padding-bottom: 5px; }
+
+.profile_bg input.cancel_btn,
+.profile_bg input.sbmt_btn {
+    border: 0 none;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 27px;
+    outline: 0 none;
+    width:auto;
+    padding: 5px 47px;
+ }
+.profile_bg input.cancel_btn {
+    background-color: #28709e;
+ 
+ }
+.profile_bg input.sbmt_btn {
+ 	background-color: #289e80;
+ 
+ }
+.ck_nn {
+	width: 80px;
+}
+#login_min.registration input.lgn_control {
+	 text-indent: 0px;
+	 padding: 0px 0px 0px 14px;
+}
+ 
+ 
+.log label {
+    margin: 0 0 0 10%;
+}
+.registration label.last_checked label {
+	height: 26px;
+	margin-top:0px;
+	text-align: right;
+	width: 100%;
+	font-size: 12px;
+}
+.lgn_hdr {
+	background-color: #040404;
+    border-bottom: 1px solid #ac1719;
+    padding: 15px 0;
+    text-align: center;
+}
+.lgn_hdr img { width:20%; }
+
+
+/*-----------chack box ---------------*/
+input[type=checkbox].css-checkbox,
+input[type=radio].css-checkbox {
+	position: absolute; 
+	overflow: hidden; 
+	clip: rect(0 0 0 0); 
+	height:1px; 
+	width:1px; 
+	margin:-1px; 
+	padding:0;
+	border:0;
+}
+input[type=checkbox].css-checkbox + label.css-label,
+input[type=radio].css-checkbox + label.css-label {
+	padding-left:37px;
+	height:28px; 
+	display:inline-block; 
+	background-repeat:no-repeat;
+	background-position: 0 -28px; 
+	vertical-align:middle;
+	cursor:pointer;
+	padding-top: 0px;
+	margin: 0 0 0 0;
+}
+input[type=checkbox].css-checkbox:checked + label.css-label,
+input[type=radio].css-checkbox:checked + label.css-label  {
+	background-position: 0 0;
+}
+.css-label{
+	background-image:url("../images/checks2.png");
+	background-position: 0 0;
+} 	
+/*-----------chack box ---------------*/
+span.ck_agr {
+	 display: block;
+    height: 65px;
+    margin: 26px 0 0;
+}
+span.ck_agr label label {
+	font-size: 13px;
+    margin: -4px 0 0 35px;
+    text-align: left;
+    height: 26px;   
+}
+span.ck_agr label {
+	text-align: left;	
+}
+span.fn-ck {
+	 display: block;
+    margin: -50px 0 0;
+}
+#login_min .fn-ck label.error {
+	margin-top: 44px;
+    position: absolute;
+    width: auto;
+}
+span.ck_agr label + label.css-label {
+   width: 29px;
+   margin: 0px;
+}
+label.trm_con {
+  float: none;
+  margin: -13px auto 15px;
+  text-align: right;
+  width: 90%;
+}
+.trm_con a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+<!doctype html>
+
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+    
+	<title></title>
+    <meta name="description" content="">
+		<!-- CSS -->
+        <link rel="stylesheet" href="css/fancybox/jquery.fancybox-buttons.css">
+        <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css">
+       
+
+		
+</head>
+
+<body>
+
+<div id="container">
+  <div id="content">
+    
+    <!--demo-->
+         <div class="gal">
+            <a class="fancybox" rel="group" href="demo/img1.jpg"><img src="demo/img1s.jpg" alt=""></a>
+			<a class="fancybox" rel="group" href="demo/img2.jpg"><img src="demo/img2s.jpg" alt=""></a><br />
+			<a class="fancybox" rel="group" href="demo/img3.jpg"><img src="demo/img3s.jpg" alt=""></a>
+			<a class="fancybox" rel="group" href="demo/img4.jpg"><img src="demo/img4s.jpg" alt=""></a>
+        </div>
+    <!--/demo-->
+    </div>
+</div>
+
+	<!-- Grab Google CDN's jQuery, fall back to local if offline -->
+  		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  		
+		<script src="js/fancybox/jquery.fancybox.js"></script>
+        
+        <script type="text/javascript">
+			
+		$(document).ready(function() {
+			$(".fancybox").fancybox({
+				maxWidth	: 800,
+				maxHeight	: 600,
+				prevEffect	: 'fade',
+				nextEffect	: 'fade',
+				
+				
+			});
+		});
+		</script>
+
+
+ 
+</body>
+</html>

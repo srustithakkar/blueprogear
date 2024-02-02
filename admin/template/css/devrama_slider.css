@@ -1,0 +1,10 @@
+.devrama-slider .nav-link {
+    background: green !important;
+}
+.devrama-slider .nav-link.active {
+    background: red !important;
+}
+.bar {
+	background: red;
+}
+ 

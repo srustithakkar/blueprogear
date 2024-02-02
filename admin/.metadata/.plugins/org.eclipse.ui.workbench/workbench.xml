@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="24" version="2.0">
+<workbenchAdvisor/>
+<window height="741" maximized="true" width="1200" x="0" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="140" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="82" y="30"/>
+<coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="188" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="96" y="30"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="84" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.php" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1419913631970" focus="true" label="Workspace - Web">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html" title="index.html" tooltip="/var/www/demo/cropbox/jquery/example/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/var/www/demo/cropbox/jquery/example/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="1783" selectionTopPixel="709"/>
+</editor>
+<editor id="com.aptana.editor.php" name="category.php" partName="category.php" title="category.php" tooltip="/var/www/whozoutnew_crop/admin/category.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/var/www/whozoutnew_crop/admin/category.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11249" selectionTopPixel="2347"/>
+</editor>
+<editor id="com.aptana.editor.js" name="script.js" partName="script.js" title="script.js" tooltip="/var/www/whozoutnew_crop/admin/template/js/script.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/var/www/whozoutnew_crop/admin/template/js/script.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="2737" selectionTopPixel="1698"/>
+</editor>
+<editor id="com.aptana.editor.php" name="footer.php" partName="footer.php" title="footer.php" tooltip="/var/www/whozoutnew_crop/admin/template/footer.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/var/www/whozoutnew_crop/admin/template/footer.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3239" selectionTopPixel="762"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.php" name="upload.php" partName="upload.php" title="upload.php" tooltip="/var/www/whozoutnew_crop/admin/upload.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/var/www/whozoutnew_crop/admin/upload.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="897" selectionTopPixel="476"/>
+</editor>
+<editor id="com.aptana.editor.php" name="resize.php" partName="resize.php" title="resize.php" tooltip="/var/www/whozoutnew_crop/admin/resize.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/var/www/whozoutnew_crop/admin/resize.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.js" name="badd" partName="badd" title="badd" tooltip="/home/vijay/Desktop/badd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/vijay/Desktop/badd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views/>
+<perspectives activePart="com.aptana.editor.php" activePerspective="com.aptana.ui.WebPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.aptana.editor.common.presentation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.aptana.js.debug.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<alwaysOnActionSet id="com.aptana.ui.globalActionSet"/>
+<alwaysOnActionSet id="com.aptana.terminal.actionSet"/>
+<show_view_action id="com.aptana.browser.views.webbrowser"/>
+<show_view_action id="com.aptana.explorer.view"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="com.aptana.ui.io.remoteview"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="com.aptana.samples.ui.SamplesView"/>
+<show_view_action id="com.aptana.snippets.ui.views.SnippetsView"/>
+<show_view_action id="com.aptana.terminal.views.terminal"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.aptana.webserver.ui.view"/>
+<new_wizard_action id="com.aptana.editor.php.NewPHPProjectWizard"/>
+<new_wizard_action id="com.aptana.ui.wizards.NewWebProject"/>
+<new_wizard_action id="com.aptana.ruby.core.ui.rubyProjectWizard"/>
+<new_wizard_action id="com.aptana.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.radrails.rails.ui.projectWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder appearance="2" expanded="2">
+<page content="com.aptana.explorer.view" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="com.aptana.ui.io.remoteview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495784" ratioLeft="889" ratioRight="297" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19983137" ratioLeft="237" ratioRight="949" relationship="2" relative="left"/>
+<info folder="true" part="terminalArea" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="com.aptana.terminal.views.terminal" label="LabelNotFound"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@160f4d03" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="com.aptana.samples.ui.SamplesView" label="LabelNotFound"/>
+<page content="com.aptana.snippets.ui.views.SnippetsView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" uri="file:/var/www/whozoutnew_crop/admin/template/js/script.js"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew_crop/admin/template/footer.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew_crop/admin/upload.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew/admin/venue.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew/admin/venueinfo.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew/admin/user.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew/admin/ethinicity.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew/admin/category.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew/admin/discount.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew/admin/report.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew/admin/notification.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew/admin/timelog.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew/admin/activitylog.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/var/www/whozoutnew_crop/admin/resize.php"/>
+</editors>
+<item historyLabel="upload.php" index="2">
+<position/>
+</item>
+<item historyLabel="script.js" index="0">
+<position info="not_deleted" x="2767" y="0"/>
+</item>
+<item historyLabel="footer.php" index="1">
+<position info="not_deleted" x="3239" y="0"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position/>
+</item>
+<item historyLabel="venue.php" index="3">
+<position info="not_deleted" x="35103" y="0"/>
+</item>
+<item historyLabel="venueinfo.php" index="4">
+<position info="not_deleted" x="17915" y="0"/>
+</item>
+<item historyLabel="venue.php" index="3">
+<position info="not_deleted" x="43658" y="0"/>
+</item>
+<item historyLabel="user.php" index="5">
+<position info="not_deleted" x="17727" y="0"/>
+</item>
+<item historyLabel="ethinicity.php" index="6">
+<position info="not_deleted" x="8335" y="0"/>
+</item>
+<item historyLabel="category.php | whozoutnew" index="7">
+<position info="not_deleted" x="11418" y="0"/>
+</item>
+<item historyLabel="discount.php" index="8">
+<position info="not_deleted" x="1564" y="0"/>
+</item>
+<item historyLabel="report.php" index="9">
+<position info="not_deleted" x="1841" y="0"/>
+</item>
+<item historyLabel="notification.php" index="10">
+<position info="not_deleted" x="6820" y="0"/>
+</item>
+<item historyLabel="timelog.php" index="11">
+<position info="not_deleted" x="2268" y="0"/>
+</item>
+<item historyLabel="activitylog.php" index="12">
+<position info="not_deleted" x="1900" y="0"/>
+</item>
+<item historyLabel="timelog.php" index="11">
+<position info="not_deleted" x="3179" y="0"/>
+</item>
+<item historyLabel="activitylog.php" index="12">
+<position info="not_deleted" x="1900" y="0"/>
+</item>
+<item historyLabel="notification.php" index="10">
+<position info="not_deleted" x="6820" y="0"/>
+</item>
+<item historyLabel="report.php" index="9">
+<position info="not_deleted" x="1841" y="0"/>
+</item>
+<item historyLabel="discount.php" index="8">
+<position info="not_deleted" x="1564" y="0"/>
+</item>
+<item historyLabel="category.php | whozoutnew" index="7">
+<position info="not_deleted" x="11418" y="0"/>
+</item>
+<item historyLabel="ethinicity.php" index="6">
+<position info="not_deleted" x="8335" y="0"/>
+</item>
+<item historyLabel="user.php" index="5">
+<position info="not_deleted" x="17727" y="0"/>
+</item>
+<item historyLabel="venue.php" index="3">
+<position info="not_deleted" x="43658" y="0"/>
+</item>
+<item historyLabel="venueinfo.php" index="4">
+<position info="not_deleted" x="17915" y="0"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position info="not_deleted" x="1321" y="0"/>
+</item>
+<item historyLabel="resize.php" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position info="not_deleted" x="430" y="0"/>
+</item>
+<item historyLabel="resize.php" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position info="not_deleted" x="430" y="0"/>
+</item>
+<item historyLabel="resize.php" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position info="not_deleted" x="430" y="0"/>
+</item>
+<item historyLabel="resize.php" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position info="not_deleted" x="430" y="0"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position/>
+</item>
+<item historyLabel="script.js" index="0">
+<position info="not_deleted" x="2737" y="9"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position/>
+</item>
+<item historyLabel="footer.php" index="1">
+<position info="not_deleted" x="3239" y="0"/>
+</item>
+<item historyLabel="script.js" index="0">
+<position info="not_deleted" x="3094" y="0"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position/>
+</item>
+<item historyLabel="script.js" index="0">
+<position info="not_deleted" x="0" y="4871"/>
+</item>
+<item historyLabel="script.js" index="0">
+<position info="not_deleted" x="2767" y="0"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position info="not_deleted" x="513" y="0"/>
+</item>
+<item historyLabel="script.js" index="0">
+<position info="not_deleted" x="2737" y="9"/>
+</item>
+<item historyLabel="resize.php" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position info="not_deleted" x="513" y="0"/>
+</item>
+<item historyLabel="upload.php" index="2">
+<position info="not_deleted" x="1306" y="0"/>
+</item>
+<item active="true" historyLabel="upload.php" index="2">
+<position/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="resize.php" tooltip="/var/www/whozoutnew_crop/admin/resize.php">
+<persistable uri="file:/var/www/whozoutnew_crop/admin/resize.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="activitylog.php" tooltip="/var/www/whozoutnew/admin/activitylog.php">
+<persistable uri="file:/var/www/whozoutnew/admin/activitylog.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="timelog.php" tooltip="/var/www/whozoutnew/admin/timelog.php">
+<persistable uri="file:/var/www/whozoutnew/admin/timelog.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="notification.php" tooltip="/var/www/whozoutnew/admin/notification.php">
+<persistable uri="file:/var/www/whozoutnew/admin/notification.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="report.php" tooltip="/var/www/whozoutnew/admin/report.php">
+<persistable uri="file:/var/www/whozoutnew/admin/report.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="discount.php" tooltip="/var/www/whozoutnew/admin/discount.php">
+<persistable uri="file:/var/www/whozoutnew/admin/discount.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="category.php" tooltip="/var/www/whozoutnew/admin/category.php">
+<persistable uri="file:/var/www/whozoutnew/admin/category.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="ethinicity.php" tooltip="/var/www/whozoutnew/admin/ethinicity.php">
+<persistable uri="file:/var/www/whozoutnew/admin/ethinicity.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="user.php" tooltip="/var/www/whozoutnew/admin/user.php">
+<persistable uri="file:/var/www/whozoutnew/admin/user.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="venueinfo.php" tooltip="/var/www/whozoutnew/admin/venueinfo.php">
+<persistable uri="file:/var/www/whozoutnew/admin/venueinfo.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="venue.php" tooltip="/var/www/whozoutnew/admin/venue.php">
+<persistable uri="file:/var/www/whozoutnew/admin/venue.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="upload.php" tooltip="/var/www/whozoutnew_crop/admin/upload.php">
+<persistable uri="file:/var/www/whozoutnew_crop/admin/upload.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="footer.php" tooltip="/var/www/whozoutnew_crop/admin/template/footer.php">
+<persistable uri="file:/var/www/whozoutnew_crop/admin/template/footer.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="script.js" tooltip="/var/www/whozoutnew_crop/admin/template/js/script.js">
+<persistable uri="file:/var/www/whozoutnew_crop/admin/template/js/script.js"/>
+</file>
+</mruList>
+</workbench>

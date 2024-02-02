@@ -1,0 +1,29 @@
+!SESSION 2014-12-30 09:56:44.873 -----------------------------------------------
+eclipse.buildId=3.4.2.201308081805
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  /var/www/whozoutnew/admin/category.php
+Command-line arguments:  -os linux -ws gtk -arch x86_64 /var/www/whozoutnew/admin/category.php
+
+!ENTRY com.aptana.terminal 4 0 2014-12-30 09:57:14.853
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  For input string: ""
+!STACK 0
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:504)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at com.aptana.terminal.connector.LocalTerminalConnector.processCommandResponse(LocalTerminalConnector.java:316)
+	at com.aptana.terminal.connector.LocalTerminalConnector.filterOutput(LocalTerminalConnector.java:294)
+	at com.aptana.terminal.connector.LocalTerminalOutputListener.streamAppended(LocalTerminalOutputListener.java:44)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$ContentNotifier.run(OutputStreamMonitor.java:257)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$ContentNotifier.notifyAppend(OutputStreamMonitor.java:267)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.fireStreamAppended(OutputStreamMonitor.java:116)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:156)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:744)
+
+!ENTRY com.aptana.core 4 0 2014-12-30 20:37:31.370
+!MESSAGE UniformResourceMarker Info is null

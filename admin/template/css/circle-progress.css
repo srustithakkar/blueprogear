@@ -1,0 +1,133 @@
+
+
+
+/* These are just a test styles - you don't need them in your project */
+ 
+ 
+.man-img {
+  background: url("../images/man-progrs2.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+  height: 165px;
+  position: absolute;
+  top: -22px;
+  width: 100%;
+  background-size: 65px;
+}
+.woman-img {
+  background: url("../images/woman-progrs2.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+  height: 165px;
+  position: absolute;
+  top: -22px;
+  width: 100%;
+  background-size: 65px;
+}
+
+
+.new-tab-link {
+    padding-right: 14px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggXDSIzCeRHfQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAA9SURBVBjTY2RAA/+XMvxHF2NkwAOwacCq4P9Shv8suFQzRiNsYUEXwKoJ2VhkNrIaJgYiAAs2N2BVRMirAD6JHi10MCdVAAAAAElFTkSuQmCC) no-repeat right center;
+}
+
+.page-title {
+    font: 400 40px/1.5 Open Sans, sans-serif;
+    text-align: center;
+}
+
+.circle {
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.circle canvas {
+    vertical-align: top;
+}
+
+.circle strong {
+  font-size: 22px;
+  left: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 103px;
+  width: 100%;
+}
+
+.circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+}
+
+.circle span {
+    display: block;
+    color: #aaa;
+    margin-top: 2px;
+}
+
+/*p {
+    margin: 40px 0;
+}*/
+
+.install {
+    margin: 50px 0;
+}
+
+.install code {
+    padding: 6px 12px;
+    display: inline-block;
+    font: 13px/20px Courier New, Liberation Mono, monospase;
+    background-color: #333333;
+    border-radius: 4px;
+    margin: 5px 0;
+    white-space: nowrap;
+}
+
+.install a {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 6px 12px;
+    line-height: 20px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: all .3s;
+}
+
+.install a:hover {
+    background-color: #222;
+}
+
+.credits {
+    color: #aaa;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.credits img {
+    margin-left: 4px;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+.circle canvas + canvas {
+	display: none!important;
+}
+span.mf-cunt {
+	font-size: 16px;
+	margin: 20px 0px;
+}
+
+.circles {
+	margin-top: 50px;
+}
+
+@media (max-height: 600px), (max-width: 480px) {
+    .credits {
+        position: inherit;
+    }
+}
